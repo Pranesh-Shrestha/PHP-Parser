@@ -1,8 +1,7 @@
 # https://help.github.com/en/categories/automating-your-workflow-with-github-actions
 name: Main
 on:
-  push:
-  pull_request:
+  workflow_dispatch: 
 
 jobs:
   tests_coverage:
